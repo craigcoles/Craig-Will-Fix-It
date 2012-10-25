@@ -41,8 +41,8 @@
             if(width&&height) {
               img[i].setAttribute("width", width);
               img[i].setAttribute("height", height);
-              img[i].src='http://www.craigcoles.co.uk/lab/savile/savile-glass.gif';
-              img[i].style.background="url('http://www.craigcoles.co.uk/lab/savile/nspcc-logo.jpg') no-repeat center center";
+              img[i].src='http://craigcoles.github.com/Craig-Will-Fix-It/images/savile-glass.gif';
+              img[i].style.background="url('http://craigcoles.github.com/Craig-Will-Fix-It/images/nspcc-logo.jpg') no-repeat center center";
             }
             
           }
