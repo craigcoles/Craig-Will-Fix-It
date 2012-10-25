@@ -37,7 +37,10 @@
             img[i].style.height = height;
             img[i].style.width = width;
             
+            
             if(width&&height) {
+              img[i].setAttribute("width", width);
+              img[i].setAttribute("height", height);
               img[i].src='http://www.craigcoles.co.uk/lab/savile/savile-glass.gif';
               img[i].style.background="url('http://www.craigcoles.co.uk/lab/savile/nspcc-logo.jpg') no-repeat center center";
             }
