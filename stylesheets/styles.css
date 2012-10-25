@@ -25,6 +25,7 @@ h1 {
 }
 
 h2 {
+  margin:20px 0;
   color:#393939;
 }
 
@@ -41,8 +42,29 @@ a {
 a small {
   font-size:11px;
   color:#777;
-  margin-top:-0.6em;
   display:block;
+}
+
+a.button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #F5978E;
+  box-shadow: inset 0px 1px 0px 0px #F5978E;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F24537), color-stop(1, #C62D1F) );
+  background: -moz-linear-gradient( center top, #F24537 5%, #C62D1F 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+  background-color: #F24537;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #D02718;
+  display: inline-block;
+  color: white;
+  font-family: Arial Black;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #810E05;
 }
 
 .wrapper {
@@ -93,6 +115,7 @@ th {
 
 img {
   max-width:100%;
+  margin:20px 0;
 }
 
 header {
@@ -157,6 +180,10 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
+}
+
+.the-button {
+  text-align:center;
 }
 
 section {

@@ -16,10 +16,9 @@
     <div class="wrapper">
       <header>
         <h1>Jim'll Fix It</h1>
-        <p>A bookmarklet to replace images of Jimmy Savile with the NSPCC logo and hotline number</p>
+        <p>A bookmarklet to replace images of Jimmy Savile with the NSPCC hotline number. This is a very simple bookmarklet and is a work in progress, but if anyone wants to contribute than please do!</p>
 
         <p class="view"><a href="https://github.com/craigcoles/Jim-ll-Fix-It">View the Project on GitHub <small>craigcoles/Jim-ll-Fix-It</small></a></p>
-
 
         <ul>
           <li><a href="https://github.com/craigcoles/Jim-ll-Fix-It/zipball/master">Download <strong>ZIP File</strong></a></li>
@@ -27,22 +26,33 @@
           <li><a href="https://github.com/craigcoles/Jim-ll-Fix-It">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
+      
       <section>
-        <h1>Jim'll Fix It</h1>
 
-<p>A bookmarklet to replace images of Jimmy Savile with the NSPCC hotline number. This is a very simple bookmarklet and is a work in progress, but if anyone wants to contribute than please do!</p>
+        <h2>Demo/Examples</h2>
+        
+        <div class="the-button">
+          <a class="button" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://www.craigcoles.co.uk/lab/savile/FixIt.js';})();">Jim'll Fix It</a>
+        </div>
 
-<h2>Further Development</h2>
+        <img src="images/cat.jpg" alt="Cat" />
+        <img src="images/dog.jpg" alt="Dog" />
+        <img src="images/jimmy-savile.jpg" alt="Blank" />
+        <img src="images/landscape.jpg" alt="Jimmy Savile" />
 
-<ul>
-<li>At the moment it finds image with 'savile' in the src or alt text. This could be refined to be more accurate.</li>
-<li>Currently replaces the image with a transparent pixel image, and the charity logo is added as the background image. Exploring options to get the charity logo and telephone to fit better into the dimensions without breaking any content.</li>
-</ul><h2>Who the!</h2>
+        <h2>Further Development</h2>
 
-<ul>
-<li><a href="http://www.craigcoles.co.uk">http://www.craigcoles.co.uk</a></li>
-<li><a href="http://twitter.com/craigrcoles">@craigrcoles</a></li>
-</ul>
+        <ul>
+          <li>At the moment it finds image with 'savile' in the src or alt text. This could be refined to be more accurate.</li>
+          <li>Currently replaces the image with a transparent pixel image, and the charity logo is added as the background image. Exploring options to get the charity logo and telephone to fit better into the dimensions without breaking any content.</li>
+        </ul>
+        
+        <h2>Who the!</h2>
+
+        <ul>
+          <li><a href="http://www.craigcoles.co.uk">http://www.craigcoles.co.uk</a></li>
+          <li><a href="http://twitter.com/craigrcoles">@craigrcoles</a></li>
+        </ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/craigcoles">craigcoles</a></p>
