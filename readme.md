@@ -1,6 +1,6 @@
-#  Jim'll Fix It
+#  Craig Will Fix It
 
-A bookmarklet to replace images of Jimmy Savile with the NSPCC hotline number. This is a very simple bookmarklet and is a work in progress, but if anyone wants to contribute than please do!
+'Craig Will Fix It' is a bookmarklet to replace images of Jimmy Savile with the NSPCC hotline number. This is a very simple bookmarklet and is a work in progress, but if anyone wants to contribute than please do!
 
 ## Further Development
 
