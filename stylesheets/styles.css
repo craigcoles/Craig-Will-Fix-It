@@ -186,6 +186,10 @@ header ul a strong {
   text-align:center;
 }
 
+.the-button p {
+  margin-top:10px;
+}
+
 section {
   width:500px;
   float:right;
