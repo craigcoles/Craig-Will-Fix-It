@@ -9,5 +9,10 @@ A bookmarklet to replace images of Jimmy Savile with the NSPCC hotline number. T
 
 ## Who the!
 
+### Craig Coles
 * http://www.craigcoles.co.uk
 * [@craigrcoles](http://twitter.com/craigrcoles)
+
+### Beef
+* http://www.wearebeef.co.uk
+* [@wearebeef](http://twitter.com/wearebeef)
