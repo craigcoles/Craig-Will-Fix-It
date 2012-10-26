@@ -58,6 +58,7 @@ a.button {
 	-ms-transition: background .1s linear;
 	transition: background .1s linear;
 	text-decoration: none;
+	cursor: move;
 }
 
 a:hover.button {
