@@ -50,10 +50,10 @@
         var imgLiquidcss   = document.createElement("link");
         imgLiquidcss.rel  = "stylesheet";
         imgLiquidcss.type  = "text/css";
-        imgLiquidcss.href   = "http://www.craigcoles.co.uk/lab/savile/imgLiquid.js.css";
+        imgLiquidcss.href   = "https://rawgithub.com/karacas/imgLiquid/master/src/css/imgLiquid.js.css";
         document.body.appendChild(imgLiquidcss);
 
-        $.getScript("http://www.craigcoles.co.uk/lab/savile/imgLiquid-min.js", function(data, textStatus, jqxhr) {
+        $.getScript("https://rawgithub.com/karacas/imgLiquid/master/src/js/imgLiquid-min.js", function(data, textStatus, jqxhr) {
           console.log('imgLiquid loaded');
 
           replaceWithJimmy();
