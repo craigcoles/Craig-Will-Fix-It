@@ -38,26 +38,18 @@
             if(width&&height) {
               img[i].setAttribute("width", width);
               img[i].setAttribute("height", height);
-              img[i].src='http://www.craigcoles.co.uk/lab/savile/nspcc-logo.jpg';
+              img[i].src='http://craigcoles.co.uk/projects/fix-it/nspcc-logo.jpg';
             }
           }
         }		    
 		  };
 		  
       var jimmy=function(){
-       
+
         // ImgLiquid Lib CSS
-        var imgLiquidcss   = document.createElement("link");
-        imgLiquidcss.rel  = "stylesheet";
-        imgLiquidcss.type  = "text/css";
-        imgLiquidcss.href   = "http://www.craigcoles.co.uk/lab/savile/imgLiquid.js.css";
-        document.body.appendChild(imgLiquidcss);
-
-        $.getScript("http://www.craigcoles.co.uk/lab/savile/imgLiquid-min.js", function(data, textStatus, jqxhr) {
+        $.getScript("http://craigcoles.co.uk/projects/fix-it/imgLiquid-min.js", function(data, textStatus, jqxhr) {
           console.log('imgLiquid loaded');
-
           replaceWithJimmy();
-
           $(".imgLiquid").imgLiquid({fill:false});
         });
         
