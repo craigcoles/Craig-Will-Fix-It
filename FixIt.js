@@ -38,7 +38,7 @@
             if(width&&height) {
               img[i].setAttribute("width", width);
               img[i].setAttribute("height", height);
-              img[i].src='http://craigcoles.co.uk/projects/fix-it/nspcc-logo.jpg';
+              img[i].src='https://raw.githubusercontent.com/craigcoles/Craig-Will-Fix-It/master/nspcc-logo.jpg';
             }
           }
         }		    
@@ -47,7 +47,7 @@
       var jimmy=function(){
 
         // ImgLiquid Lib CSS
-        $.getScript("http://craigcoles.co.uk/projects/fix-it/imgLiquid-min.js", function(data, textStatus, jqxhr) {
+        $.getScript("https://raw.githubusercontent.com/craigcoles/Craig-Will-Fix-It/master/imgLiquid-min.js", function(data, textStatus, jqxhr) {
           console.log('imgLiquid loaded');
           replaceWithJimmy();
           $(".imgLiquid").imgLiquid({fill:false});
